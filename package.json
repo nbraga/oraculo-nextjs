@@ -9,14 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
+    "axios": "^1.2.0",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
+    "framer-motion": "^7.6.14",
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "moment": "^2.29.4",
+    "react-cookie": "^4.1.1",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.39.7",
+    "react-icons": "^4.6.0",
+    "react-input-mask": "^2.0.4",
+    "yup": "^0.32.11"
   }
 }
